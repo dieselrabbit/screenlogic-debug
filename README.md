@@ -7,7 +7,7 @@
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
 
-_Integration to expose and track over time screenlogicpy data points not exposed by the built-in [ScreenLogic][sl_integration] integration._
+_Integration to expose and track over time unconfirmed screenlogicpy data points not exposed by the [built-in ScreenLogic integration][sl_integration]._
 
 **This integration will set up the following platforms.**
 
@@ -19,11 +19,11 @@ _Integration to expose and track over time screenlogicpy data points not exposed
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 1. If you do not have a `custom_components` directory (folder) there, you need to create it.
-1. In the `custom_components` directory (folder) create a new folder called `integration_blueprint`.
-1. Download _all_ the files from the `custom_components/integration_blueprint/` directory (folder) in this repository.
+1. In the `custom_components` directory (folder) create a new folder called `screenlogic_debug`.
+1. Download _all_ the files from the `custom_components/screenlogic_debug/` directory (folder) in this repository.
 1. Place the files you downloaded in the new directory (folder) you created.
 1. Restart Home Assistant
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Integration blueprint"
+1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Pentair ScreenLogic Debug"
 
 ## Configuration is done in the UI
 
