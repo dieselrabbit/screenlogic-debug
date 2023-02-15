@@ -1,12 +1,22 @@
 {
   "domain": "screenlogic_debug",
-  "name": "Integration blueprint",
-  "codeowners": [
-    "@ludeeus"
+  "name": "Pentair ScreenLogic Debug",
+  "documentation": "https://github.com/dieselrabbit/screenlogic-debug",
+  "issue_tracker": "https://github.com/dieselrabbit/screenlogic-debug/issues",
+  "dependencies": [],
+  "dhcp": [
+    {
+      "registered_devices": true
+    },
+    {
+      "hostname": "pentair*",
+      "macaddress": "00C033*"
+    }
   ],
   "config_flow": true,
-  "documentation": "https://github.com/ludeeus/screenlogic_debug",
-  "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/screenlogic_debug/issues",
-  "version": "0.0.0"
+  "iot_class": "local_push",
+  "codeowners": ["@dieselrabbit"],
+  "requirements": ["screenlogicpy==0.7.1"],
+  "loggers": ["screenlogicpy"],
+  "version": "0.0.1"
 }
