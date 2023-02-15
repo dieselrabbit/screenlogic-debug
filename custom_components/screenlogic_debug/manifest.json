@@ -1,0 +1,12 @@
+{
+  "domain": "screenlogic_debug",
+  "name": "Integration blueprint",
+  "codeowners": [
+    "@ludeeus"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/ludeeus/screenlogic_debug",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ludeeus/screenlogic_debug/issues",
+  "version": "0.0.0"
+}
