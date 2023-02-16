@@ -1,4 +1,4 @@
-# Integration Blueprint
+# ScreenLogic Debug
 
 [![GitHub Release][releases-shield]][releases]
 [![GitHub Activity][commits-shield]][commits]
