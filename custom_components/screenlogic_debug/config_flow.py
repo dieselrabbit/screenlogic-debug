@@ -59,7 +59,6 @@ def name_for_mac(mac):
 class ScreenLogicDebugFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
     """Config flow for screenlogic_debug."""
 
-    VERSION = 1
     CONNECTION_CLASS = config_entries.CONN_CLASS_LOCAL_PUSH
 
     def __init__(self):

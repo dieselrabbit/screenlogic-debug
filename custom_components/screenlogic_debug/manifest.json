@@ -18,5 +18,5 @@
   "codeowners": ["@dieselrabbit"],
   "requirements": ["screenlogicpy==0.7.1"],
   "loggers": ["screenlogicpy"],
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

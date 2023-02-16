@@ -5,7 +5,7 @@ LOGGER: Logger = getLogger(__package__)
 
 NAME = "ScreenLogic Debug"
 DOMAIN = "screenlogic_debug"
-VERSION = "0.0.1"
+VERSION = "0.1.0"
 
 DEFAULT_SCAN_INTERVAL = 30
 MIN_SCAN_INTERVAL = 10
