@@ -1,8 +1,8 @@
 {
   "domain": "screenlogic_debug",
   "name": "Pentair ScreenLogic Debug",
-  "documentation": "https://github.com/dieselrabbit/screenlogic-debug",
-  "issue_tracker": "https://github.com/dieselrabbit/screenlogic-debug/issues",
+  "codeowners": ["@dieselrabbit"],
+  "config_flow": true,
   "dependencies": [],
   "dhcp": [
     {
@@ -13,10 +13,10 @@
       "macaddress": "00C033*"
     }
   ],
-  "config_flow": true,
+  "documentation": "https://github.com/dieselrabbit/screenlogic-debug",
   "iot_class": "local_push",
-  "codeowners": ["@dieselrabbit"],
-  "requirements": ["screenlogicpy==0.7.1"],
+  "issue_tracker": "https://github.com/dieselrabbit/screenlogic-debug/issues",
   "loggers": ["screenlogicpy"],
-  "version": "0.1.0"
+  "requirements": ["git+https://github.com/dieselrabbit/screenlogicpy.git@dev#screenlogicpy==0.8.0"],
+  "version": "0.2.0"
 }
